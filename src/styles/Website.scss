@@ -1,0 +1,18 @@
+.website:not(.fullSize) {
+  width: 50%;
+}
+
+.website {
+  display: flex;
+  .image,
+  .details {
+    width: 50%;
+  }
+}
+
+.details {
+  .websiteLinks {
+    display: flex;
+    justify-content: space-around;
+  }
+}

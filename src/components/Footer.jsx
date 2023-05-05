@@ -1,10 +1,13 @@
 import React from "react";
+import "../styles/Footer.scss";
 
 const Footer = () => {
   return (
-    <>
-      <p>Footers</p>
-    </>
+    <footer>
+      <p>Stuart P McGee</p>
+      <p>Last changed</p>
+      <p>Copyright</p>
+    </footer>
   );
 };
 

@@ -4,7 +4,7 @@ import "../styles/Head.scss";
 const Head = () => {
   return (
     <header>
-      <div className="titleContainer">
+      <div className="headerContainer">
         <h1>Hi! :Hand wave:</h1>
         <p>I'm Stuart and I'm looking for a Junior front end developer role.</p>
 

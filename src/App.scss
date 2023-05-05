@@ -26,3 +26,9 @@ body {
   outline: 3px solid orange;
   background-color: hsla(120, 50%, 50%, 0.18);
 }
+
+.headerContainer,
+main {
+  margin: auto;
+  width: 80%;
+}
