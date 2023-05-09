@@ -8,12 +8,13 @@ import "../styles/Main.scss";
 const Main = () => {
   const websiteDate = useSelector(selectWebsiteData);
 
-  console.log(websiteDate);
-
   return (
     <main>
       {websiteDate.map((website) => (
-        <div className={website.fullSize ? "website fullSize" : "website"}>
+        <div
+          className={website.fullSize ? "website fullSize" : "website"}
+          key={website.title}
+        >
           <Website website={website} />
         </div>
       ))}
