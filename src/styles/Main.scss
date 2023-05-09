@@ -1,4 +1,11 @@
 main {
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.website {
+  border: 1px black solid;
+  margin-bottom: 30px;
 }

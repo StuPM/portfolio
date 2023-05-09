@@ -8,11 +8,29 @@
   .details {
     width: 50%;
   }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .image {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
 }
 
 .details {
   .websiteLinks {
     display: flex;
     justify-content: space-around;
+    button {
+      background-color: #4ea1d3;
+      padding: 5px;
+    }
   }
 }

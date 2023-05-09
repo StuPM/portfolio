@@ -6,14 +6,27 @@ const Website = ({ website }) => {
   return (
     <>
       <div className="image">
-        <p>{website.img}</p>
+        <img
+          src={require(`../assets/` + website.img + `.png`)}
+          alt=""
+          srcset=""
+        />
       </div>
       <div className="details">
-        <div className="title">{website.title} </div>
+        <h2 className="title">{website.title} </h2>
         <div className="tech">{website.tech}</div>
+        <div className="description">{website.description}</div>
         <div className="websiteLinks">
-          <p className="link">{website.github}</p>
-          <p className="link">{website.live}</p>
+          <button>
+            <a href={website.github} className="link">
+              Github
+            </a>
+          </button>
+          <button>
+            <a href={website.live} className="link">
+              Live
+            </a>
+          </button>
         </div>
       </div>
     </>

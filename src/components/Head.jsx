@@ -5,13 +5,15 @@ const Head = () => {
   return (
     <header>
       <div className="headerContainer">
-        <h1>Hi! :Hand wave:</h1>
+        <h1>Hi!</h1>
         <p>I'm Stuart and I'm looking for a Junior front end developer role.</p>
 
-        <h3>Links</h3>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-        <p>stuartpmcgee@gmail.com</p>
+        <div className="links">
+          <a href="https://www.linkedin.com/in/stuartpmcgee/">Linkedin</a>
+          <a href="https://github.com/StuPM">Github</a>
+          <a href="mailto:stuartpmcgee@gmail.com">Email</a>
+          <a href="mailto:test@test.com">CV</a>
+        </div>
 
         <h3>Scroll down to view my portfolio.</h3>
       </div>

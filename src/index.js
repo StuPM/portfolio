@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "normalize.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./app/store";
@@ -8,6 +9,10 @@ import { Provider } from "react-redux";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
+    <style>
+      @import
+      url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+    </style>
     <React.StrictMode>
       <App />
     </React.StrictMode>
