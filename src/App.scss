@@ -7,3 +7,15 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+#root {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+header,
+main,
+footer {
+  scroll-snap-align: start;
+}
