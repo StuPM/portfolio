@@ -4,7 +4,7 @@ import hello from "../assets/hello.png";
 
 const Head = () => {
   return (
-    <header id="HEADERTEST">
+    <header>
       <div className="headerContainer">
         <div className="headerTitle">
           <h1>Hello! &nbsp;</h1>

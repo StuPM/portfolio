@@ -9,7 +9,7 @@ const Main = () => {
   const websiteDate = useSelector(selectWebsiteData);
 
   return (
-    <main id="MAINTEST">
+    <main>
       {websiteDate.map((website) => (
         <div
           className={website.fullSize ? "website fullSize" : "website"}
