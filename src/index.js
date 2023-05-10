@@ -11,7 +11,7 @@ root.render(
   <Provider store={store}>
     <style>
       @import
-      url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+      url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
     </style>
     <React.StrictMode>
       <App />
