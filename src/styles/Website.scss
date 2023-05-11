@@ -4,6 +4,7 @@
 
 .website {
   display: flex;
+  border-radius: 15px;
   .image,
   .details {
     width: 50%;
@@ -26,12 +27,26 @@
 }
 
 .details {
+  .detailsText {
+    display: flex;
+    flex-direction: column;
+    .tech {
+      align-self: center;
+    }
+  }
   .detailsLinks {
     display: flex;
     justify-content: space-around;
     button {
       background-color: #4ea1d3;
       padding: 5px;
+      width: 70px;
+      margin-right: 10px;
+      border-radius: 5px;
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
     }
   }
 }
