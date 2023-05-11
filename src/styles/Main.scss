@@ -1,8 +1,11 @@
+@import "../styles/Head.scss";
+
 main {
+  @include websiteWidth;
+
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 80%;
+
   padding-top: 5%;
 }
 

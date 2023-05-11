@@ -1,17 +1,27 @@
-header {
-  height: 100vh;
+$buttonColour: #4ea1d3;
+
+@mixin backgroundColourSet {
   background-color: #6474e5;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   color: white;
 }
 
-.headerContainer {
+@mixin websiteWidth {
   margin: auto;
   width: 80%;
+}
+
+header {
+  @include backgroundColourSet;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer {
+  @include websiteWidth;
+
   .headerTitle {
     display: flex;
     align-items: center;
@@ -27,13 +37,13 @@ header {
   p {
     font-size: 1.2rem;
   }
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
 }

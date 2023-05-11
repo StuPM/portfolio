@@ -4,14 +4,14 @@
 //   background-color: hsla(0, 0%, 100%, 0.18);
 // }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 #root {
   scroll-snap-type: y mandatory;
   height: 100vh;
   overflow-y: scroll;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 header,
