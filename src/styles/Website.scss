@@ -4,6 +4,13 @@
   display: flex;
   border-radius: 15px;
 
+  &:nth-child(even) {
+    direction: rtl;
+    * {
+      direction: ltr;
+    }
+  }
+
   .image,
   .details {
     width: 50%;

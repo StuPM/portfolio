@@ -37,6 +37,16 @@ export const portfolioSlice = createSlice({
       },
       {
         title: "React weather forecast",
+        description:
+          "A weather forecast website that returns the forecast from the Openweather API, based on either your geo-location or a user-inputted location. FEATURES WHAT EXTRA?",
+        tech: "REACT | JS | TBC",
+        img: "REACT-WEATHER",
+        github: "https://github.com/StuPM/react-5DayWeatherForecast",
+        live: "https://5dayweatherforcast.netlify.app/",
+        fullSize: true,
+      },
+      {
+        title: "React SIMPSONS QUOTES",
         description: "TBC",
         tech: "TBC",
         img: "website",
