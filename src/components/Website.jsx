@@ -16,16 +16,12 @@ const Website = ({ website }) => {
         </div>
 
         <div className="detailsLinks">
-          <button>
-            <a href={website.github} className="link">
-              Github
-            </a>
-          </button>
-          <button>
-            <a href={website.live} className="link">
-              Live
-            </a>
-          </button>
+          <a href={website.github} className="link">
+            <span>Github</span>
+          </a>
+          <a href={website.live} className="link">
+            <span>Live</span>
+          </a>
         </div>
       </div>
     </>

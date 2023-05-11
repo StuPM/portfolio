@@ -15,11 +15,11 @@ const Head = () => {
         <p>I'm Stuart McGee and I'm a frontend developer.</p>
         <div className="links">
           <a href="https://www.linkedin.com/in/stuartpmcgee/">Linkedin</a>
-          <div>&ensp; / &ensp;</div>
+          <div>&ensp; | &ensp;</div>
           <a href="https://github.com/StuPM">Github</a>
-          <div>&ensp; / &ensp;</div>
+          <div>&ensp; | &ensp;</div>
           <a href="mailto:stuartpmcgee@gmail.com">Email</a>
-          <div>&ensp; / &ensp;</div>
+          <div>&ensp; | &ensp;</div>
           <a href="mailto:test@test.com">CV</a>
         </div>
         <p>Actively seaking a developer role.</p>

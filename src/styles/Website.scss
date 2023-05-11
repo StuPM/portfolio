@@ -29,6 +29,7 @@
   .detailsText {
     display: flex;
     flex-direction: column;
+    .title,
     .tech {
       align-self: center;
     }
@@ -36,12 +37,45 @@
   .detailsLinks {
     display: flex;
     justify-content: space-around;
-    button {
+
+    a {
       background-color: $buttonColour;
-      padding: 5px;
-      width: 70px;
-      margin-right: 10px;
+      border: none;
       border-radius: 5px;
+      width: 70px;
+
+      padding: 5px;
+      margin-right: 10px;
+
+      text-align: center;
+
+      transition: all 0.5s;
+      display: inline-block;
+
+      span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      &:hover span {
+        padding-right: 10px;
+      }
+
+      &:hover span::after {
+        opacity: 1;
+        right: 0;
+      }
     }
   }
 }
