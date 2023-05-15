@@ -9,10 +9,6 @@ import { Provider } from "react-redux";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <style>
-      @import
-      url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
-    </style>
     <React.StrictMode>
       <App />
     </React.StrictMode>
