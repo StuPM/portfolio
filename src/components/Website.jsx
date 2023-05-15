@@ -6,7 +6,9 @@ const Website = ({ website }) => {
   return (
     <>
       <div className="image">
-        <img src={require(`../assets/` + website.img + `.png`)} />
+        <img
+          src={require(`../assets/websitesFullSize/` + website.img + `.png`)}
+        />
       </div>
       <div className="details">
         <div className="detailsText">

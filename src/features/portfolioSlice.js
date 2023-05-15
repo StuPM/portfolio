@@ -36,24 +36,26 @@ export const portfolioSlice = createSlice({
         fullSize: true,
       },
       {
-        title: "React weather forecast",
+        title: "Simpsons Quotes!",
         description:
-          "An easy to understand website that displays the weather at lunchtime for the next 5 days at your location.",
-        tech: "REACT | JS | TBC",
-        img: "REACT-WEATHER",
+          "My first foray into React web development.Using functional react components, prop drilling and state lifting. Connecting to an API with Axios and conditional styling based on user input. ",
+        tech: "REACT | API | JS",
+        img: "SIMPSONS-WEBSITE",
+        github: "https://github.com/StuPM/react-simpsons-functional",
+        live: "https://simpsons-quotes-spm.netlify.app/",
+        fullSize: true,
+      },
+      {
+        title: "Lunchtime Weather Forecast",
+        description:
+          "A weather forecast website that returns the weather for the next 5 lunctimes, by using either geolocation or the user inputted location. Using vanilla JavaScript to create code conditionally and SCSS for styling.",
+        tech: "Vanilla JS | SCSS | HTML",
+        img: "WEATHER-WEBSITE",
         github: "https://github.com/StuPM/5DayWeatherForcast",
         live: "https://5dayweatherforcast.netlify.app/",
         fullSize: true,
       },
-      {
-        title: "React SIMPSONS QUOTES",
-        description: "TBC",
-        tech: "TBC",
-        img: "SIMPSONS-WEBSITE",
-        github: "https://github.com/StuPM/react-simpsons-functional",
-        live: "TBC",
-        fullSize: true,
-      },
+
       {
         title: "Octopus energy",
         description: "TBC",
