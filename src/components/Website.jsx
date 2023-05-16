@@ -8,6 +8,7 @@ const Website = ({ website }) => {
       <div className="image">
         <img
           src={require(`../assets/websitesFullSize/` + website.img + `.png`)}
+          alt="Fullsize image showing website"
         />
       </div>
       <div className="details">
