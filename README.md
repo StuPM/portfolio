@@ -1,33 +1,23 @@
-# Portofolio website
+# Stuart Paul McGee
 
-One page react app, show casing the websites I have created, as well as the skills I have.
+Fullstack software engineer, with experience working with React, JavaScript, MongoDB and Express databases.
+Actively looking for a frontend web developer role.
 
-## Home
+## Live link TBC
 
-- Full page screen.
-- When scroll takes you to the next section, not gradually down.
+[TBC](https://simpsons-quotes-spm.netlify.app).
 
-### Information
+## Technology Stack
 
-- My Name
-- What I'm looking for
-- Contact details.
-- Animation on load, think maybe petal type design from top left.
-  - Shows gsap and design skills.
-- 'Portofolio scoll down' - Slight shake on the text/arrow down. To help draw you down to the next section.
-
-## Main section
-
-What do I have to show?
-
-- A24 website
-- Hospitality hunt
-- Simpsons react app API
-
-What do I want to show?
+## Portfolio links
 
 - Personal film tracker
-- Something with databases
-- Something with animation (Three?)
+  - Live / [Frontend](https://github.com/StuPM/personal-film-tracker) / [Backend](https://github.com/StuPM/personal-film-tracker-backend)
+- 5DayWeatherForecast
+  - [Live](https://5dayweatherforcast.netlify.app/) / [GitHub](https://github.com/StuPM/5DayWeatherForcast)
+- Simpsons Quotes
+  - [Live](https://simpsons-quotes-spm.netlify.app/) / [GitHub](https://github.com/StuPM/simpsons-quotes-react)
 
-## Footer
+## Author
+
+Built and created by me, Stuart Paul McGee.

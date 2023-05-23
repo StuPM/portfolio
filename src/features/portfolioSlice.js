@@ -22,7 +22,7 @@ export const portfolioSlice = createSlice({
         tech: "REACT | REDUX | API | (DATABASE?)",
         img: "website",
         github: "https://github.com/russell-gh/hospitality-hunt",
-        live: "https://hospitalityhunt.uk/",
+        live: "https://hospitality-hunt.vercel.app/",
         fullSize: true,
       },
       {

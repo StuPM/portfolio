@@ -8,7 +8,7 @@ const Head = () => {
       <div className="headerContainer">
         <div className="headerTitle">
           <h1>Hello! &nbsp;</h1>
-          <img src={hello} alt="" srcset="" />
+          <img src={hello} alt="Waving hand." />
         </div>
 
         <p>React | Javascript | CSS 3 | HTML5 </p>
