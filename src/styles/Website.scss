@@ -2,7 +2,10 @@
 
 .website {
   display: flex;
-  border-radius: 15px;
+  min-height: 45vh;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
   &:nth-child(even) {
     direction: rtl;
@@ -21,7 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
   }
 
   .image {
@@ -36,11 +39,29 @@
   .detailsText {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
     .title,
     .tech {
       align-self: center;
     }
+
+    .tech {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+
+      .parallelogram {
+        transform: skew(-20deg);
+        background: rgb(9, 189, 212);
+        padding: 5px;
+        div {
+          transform: skew(20deg);
+        }
+      }
+    }
   }
+
+  //Code for github live hover
   .detailsLinks {
     display: flex;
     justify-content: space-around;

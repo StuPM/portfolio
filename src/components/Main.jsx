@@ -9,16 +9,21 @@ const Main = () => {
   const websiteDate = useSelector(selectWebsiteData);
 
   return (
-    <main>
-      {websiteDate.map((website) => (
-        <div
-          className={website.fullSize ? "website fullSize" : "website"}
-          key={website.title}
-        >
-          <Website website={website} />
-        </div>
-      ))}
-    </main>
+    <>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <polygon points="0 0, 50 0, 0 50, 0 0" fill="#6474e5" />
+      </svg>
+      <main>
+        {websiteDate.map((website) => (
+          <div
+            className={website.fullSize ? "website fullSize" : "website"}
+            key={website.title}
+          >
+            <Website website={website} />
+          </div>
+        ))}
+      </main>
+    </>
   );
 };
 

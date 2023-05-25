@@ -1,12 +1,15 @@
 import React from "react";
 import "../styles/Footer.scss";
+import linkedIn from "../assets/logos/LI-In-Bug.png";
 
 const Footer = () => {
   return (
     <footer>
-      <p>Stuart Paul McGee</p>
-      <p>Last changed</p>
-      <p>&copy; 2023</p>
+      <a href="https://www.linkedin.com/in/stuartpmcgee/" className="linkedIn">
+        <div>Stuart Paul McGee &nbsp;</div>
+        <img src={linkedIn} alt="LinkedIn logo" />
+      </a>
+      <div>&copy; 2023</div>
     </footer>
   );
 };

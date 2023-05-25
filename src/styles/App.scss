@@ -1,7 +1,7 @@
 /* LAYOUT DEBUG */
 // * {
 //   outline: 1px solid orange;
-//   background-color: hsla(0, 0%, 100%, 0.18);
+//   // background-color: hsla(0, 0%, 100%, 0.18);
 // }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
@@ -10,9 +10,7 @@
   scroll-snap-type: y mandatory;
   height: 100vh;
   overflow-y: scroll;
-}
-
-body {
+  position: relative;
   font-family: "Open Sans", sans-serif;
 }
 

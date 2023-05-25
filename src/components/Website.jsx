@@ -7,14 +7,21 @@ const Website = ({ website }) => {
     <>
       <div className="image">
         <img
-          src={require(`../assets/websitesFullSize/` + website.img + `.png`)}
+          src={require(`../assets/websitesFullSize/` + website.img)}
           alt="Screenshot of the portfolio websites."
         />
       </div>
       <div className="details">
         <div className="detailsText">
           <h2 className="title">{website.title} </h2>
-          <div className="tech">{website.tech}</div>
+          <div className="tech">
+            {website.tech.map((item) => (
+              // <div>{item}</div>
+              <div className="parallelogram">
+                <div>{item}</div>
+              </div>
+            ))}
+          </div>
           <div className="description">{website.description}</div>{" "}
         </div>
 
