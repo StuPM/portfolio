@@ -44,6 +44,7 @@
 
     a {
       min-width: 40px;
+      padding-right: 10px;
     }
   }
 
@@ -64,5 +65,9 @@
   }
   .link {
     align-self: center;
+    button {
+      background-color: #6474e5;
+      color: white;
+    }
   }
 }
