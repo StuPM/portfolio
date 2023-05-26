@@ -7,8 +7,10 @@ main {
   flex-direction: column;
 
   padding-top: 5%;
+}
 
-  background-size: cover;
+body {
+  background-color: #d1d5f7;
 }
 
 #root > svg {
@@ -17,6 +19,6 @@ main {
 }
 
 .website {
-  border: 1px black solid;
-  margin-bottom: 30px;
+  margin-bottom: 5rem;
+  background-color: #ffffff;
 }

@@ -1,5 +1,9 @@
 $buttonColour: #4ea1d3;
 
+@mixin borderTest {
+  border: 1px solid black;
+}
+
 @mixin backgroundColourSet {
   background-color: #6474e5;
   color: white;
