@@ -9,14 +9,14 @@ export const portfolioSlice = createSlice({
         title: "Film Tracking App",
         description:
           "Fullstack React app, letting my track and review the films that I have seen. Come see my reviews and rating for every film I've seen this year!",
-        tech: ["React", "Redux", "MongoDB", "Rest API"],
+        tech: ["React", "Redux", "MongoDB", "API"],
         img: "website.png",
         github: "https://github.com/StuPM/personal-film-tracker",
         live: "TBC",
         fullSize: true,
       },
       {
-        title: "Hospitally Recruitment Website",
+        title: "Hospitality Recruitment Website",
         description:
           "A fullstack app created as a group project as apart of my fullstack developer bootcamp. My hightlights include the signup and navigation components and connecting to the frontend to backend database.",
         tech: ["REACT", "REDUX", "API", "MySQL"],
@@ -29,7 +29,7 @@ export const portfolioSlice = createSlice({
         title: "Simpsons Quotes Generator",
         description:
           "My first foray into React development. Using functional react components, prop drilling and state lifting. Connecting to an API with Axios and conditional styling based on user actions.",
-        tech: ["React", "Rest API", "JavaScript"],
+        tech: ["React", "API", "JavaScript"],
         img: "simp.gif",
         github: "https://github.com/StuPM/react-simpsons-functional",
         live: "https://simpsons-quotes-spm.netlify.app/",
@@ -39,7 +39,7 @@ export const portfolioSlice = createSlice({
         title: "Lunchtime Weather Forecast",
         description:
           "A weather forecast website that returns the weather for the next 5 lunctimes, by using either geolocation or the user inputted location. Using JavaScript to create HTML conditionally and SCSS for styling.",
-        tech: ["JavaScript", "SCSS", "Rest API", "HTML"],
+        tech: ["JavaScript", "SCSS", "API", "HTML"],
         img: "WEATHER-WEBSITE.png",
         github: "https://github.com/StuPM/5DayWeatherForcast",
         live: "https://5dayweatherforcast.netlify.app/",

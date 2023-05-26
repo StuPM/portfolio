@@ -2,7 +2,7 @@
 
 .website {
   display: flex;
-  min-height: 50vh;
+  min-height: 45vh;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -14,99 +14,55 @@
     }
   }
 
-  .image,
-  .details {
-    width: 50%;
+  > * {
+    color: #3c4689;
   }
 
+  .image,
   .details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    flex-basis: 50%;
+    padding: 10px 10px;
   }
 
   .image {
     align-self: center;
     img {
-      width: 100%;
-      object-fit: contain;
-      @include borderTest;
+      max-width: 100%;
+      max-height: 100%;
     }
   }
 }
 
 .details {
-  .detailsText {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    .title,
-    .tech {
-      align-self: center;
-    }
+  flex-direction: column;
+  justify-content: normal;
 
-    .tech {
-      display: flex;
-      width: 100%;
-      justify-content: space-around;
+  row-gap: 1rem;
 
-      .parallelogram {
-        transform: skew(-20deg);
-        background: #e564db;
-        padding: 5px;
-        div {
-          transform: skew(20deg);
-        }
-      }
+  .title {
+    align-items: center;
+
+    a {
+      min-width: 40px;
     }
   }
 
-  //Code for github live hover
-  // .detailsLinks {
-  //   display: flex;
-  //   justify-content: space-around;
+  .tech.container {
+    width: 100%;
+    justify-content: space-around;
 
-  //   button {
-  //     // background-color: $buttonColour;
-  //     // border: none;
-  //     // border-radius: 5px;
-  //     width: 70px;
-  //     white-space: nowrap;
+    div {
+      background-color: #f0f1fc;
+      font-weight: bold;
+      border-radius: 5px;
 
-  //     padding: 0 5px 0;
-  //     margin-right: 10px;
-
-  //     text-align: center;
-
-  //     transition: all 0.5s;
-  //     display: inline-block;
-
-  //     span {
-  //       cursor: pointer;
-  //       display: inline-block;
-  //       position: relative;
-  //       transition: 0.5s;
-  //     }
-
-  //     span:after {
-  //       content: "\00bb";
-  //       position: absolute;
-  //       opacity: 0;
-  //       top: 0;
-  //       right: -20px;
-  //       transition: 0.5s;
-  //     }
-
-  //     &:hover span {
-  //       padding-right: 10px;
-  //     }
-
-  //     &:hover span::after {
-  //       opacity: 1;
-  //       right: 0;
-  //     }
-  //   }
-  // }
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  .description {
+    flex-grow: 2;
+  }
+  .link {
+    align-self: center;
+  }
 }

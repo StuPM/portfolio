@@ -19,3 +19,8 @@ main,
 footer {
   scroll-snap-align: start;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
