@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import "../styles/Head.scss";
 import Nav from "./Nav";
 import hello from "../assets/hello.png";
 import me from "../assets/meCutOut.png";
 
+import { gsap } from "gsap";
+
 const Head = () => {
+  useLayoutEffect(() => {
+    let tl = gsap.timeline({ repeat: -1, yoyo: true });
+
+    tl.to(".emoji", {
+      duration: 0.5,
+      y: -5,
+    });
+  }, []);
+
   return (
     <header>
       <div className="container">
@@ -36,7 +47,11 @@ const Head = () => {
             </div>
           </div>
         </div>
-        <h3>Down here!</h3>
+        <div className="down container">
+          <div class="emoji">👇</div>
+          <h3>Down here!</h3>
+          <div class="emoji">👇</div>
+        </div>
       </div>
     </header>
   );

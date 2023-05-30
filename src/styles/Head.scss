@@ -2,7 +2,7 @@ $buttonColour: #4ea1d3;
 
 @mixin backgroundColourSet {
   background-color: #6474e5;
-  color: white;
+  color: #e9e9f3;
 }
 
 @mixin websiteWidth {
@@ -39,8 +39,6 @@ header {
   }
   * {
     font-size: 1.2rem;
-    // font-weight: 700;
-    color: #e9e9f3;
   }
 
   .headerText,
@@ -81,6 +79,11 @@ header {
       max-height: 100%;
     }
   }
+}
+
+.down {
+  justify-content: center;
+  align-items: center;
 }
 
 a {
