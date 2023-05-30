@@ -1,33 +1,42 @@
 import React from "react";
 import "../styles/Head.scss";
-import hello from "../assets/hello.png";
 import Nav from "./Nav";
+import hello from "../assets/hello.png";
+import me from "../assets/meCutOut.png";
 
 const Head = () => {
   return (
     <header>
       <div className="container">
-        <Nav />
-        <div className="headerContainer">
-          <div className="headerTitle">
-            <h1>Hello! &nbsp;</h1>
-            <img src={hello} alt="Waving hand." />
-          </div>
+        <div className="headerMain">
+          <Nav />
+          <div className="container">
+            <div className="headerText">
+              <div className="title">
+                <h1>Hello! &nbsp;</h1>
+                <img src={hello} alt="Waving hand." />
+              </div>
 
-          <p>React | Javascript | CSS 3 | HTML5 </p>
-          <p>I'm Stuart McGee and I'm a frontend developer.</p>
-          <div className="links">
-            <a href="https://www.linkedin.com/in/stuartpmcgee/">Linkedin</a>
-            <div>&ensp; | &ensp;</div>
-            <a href="https://github.com/StuPM">Github</a>
-            <div>&ensp; | &ensp;</div>
-            <a href="mailto:stuartpmcgee@gmail.com">Email</a>
-            <div>&ensp; | &ensp;</div>
-            <a href="mailto:test@test.com">CV</a>
+              <div>React | JavaScript | CSS 3 | HTML5 </div>
+              <p>
+                I'm Stuart McGee and I'm a frontend developer. Please scroll
+                down to see my projects!
+              </p>
+
+              <div className="links">
+                <a href="https://www.linkedin.com/in/stuartpmcgee/">linkedin</a>
+                <div>&ensp; | &ensp;</div>
+                <a href="https://github.com/StuPM">github</a>
+              </div>
+
+              <p>Actively seaking a developer role.</p>
+            </div>
+            <div className="headshot container">
+              <img src={me} alt="" srcset="" />
+            </div>
           </div>
-          <p>Actively seaking a developer role.</p>
         </div>
-        <h3>Scroll down to view my portfolio.</h3>
+        <h3>Down here!</h3>
       </div>
     </header>
   );

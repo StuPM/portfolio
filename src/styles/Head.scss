@@ -12,37 +12,72 @@ $buttonColour: #4ea1d3;
 
 header {
   @include backgroundColourSet;
-
   height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  > .container {
+
+  > div {
     height: 100%;
     flex-direction: column;
     @include websiteWidth;
+
+    justify-content: space-between;
+  }
+  > div::before {
+    flex-grow: 2;
+  }
+  h3 {
+    align-self: center;
   }
 }
 
-.headerContainer {
-  .headerTitle {
+.headerMain {
+  nav {
+    padding: 60px 0;
+    .logo {
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  }
+  * {
+    font-size: 1.2rem;
+    // font-weight: 700;
+    color: #e9e9f3;
+  }
+
+  .headerText,
+  .headshot {
+    width: 50%;
+  }
+
+  .title {
     display: flex;
     align-items: center;
+
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+    }
+    img {
+      width: 50px;
+      height: auto;
+    }
   }
-  img {
-    width: 50px;
-    height: auto;
+
+  .headerText {
+    p {
+      font-weight: 600;
+    }
   }
-  h1 {
-    font-size: 3.2rem;
-    font-weight: 800;
-  }
-  p {
-    font-size: 1.2rem;
-  }
+
   .links {
     display: flex;
     flex-direction: row;
+  }
+
+  .headshot {
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
   }
 }
 

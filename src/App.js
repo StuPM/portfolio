@@ -2,7 +2,6 @@ import "./styles/App.scss";
 import Head from "./components/Head";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Nav from "./components/Nav";
 
 function App() {
   return (
