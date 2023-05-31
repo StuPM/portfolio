@@ -25,7 +25,11 @@ const Website = ({ website }) => {
             <div key={item}>{item}</div>
           ))}
         </div>
-        <div className="description">{website.description}</div>
+        <div className="description">
+          {website.description.map((item) => (
+            <div key={item}>{item}</div>
+          ))}
+        </div>
         <a href={website.live} className="link">
           <button>
             <span> Visit</span>

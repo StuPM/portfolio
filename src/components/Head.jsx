@@ -43,14 +43,14 @@ const Head = () => {
               <p>Actively seaking a developer role.</p>
             </div>
             <div className="headshot container">
-              <img src={me} alt="" srcset="" />
+              <img src={me} alt="" />
             </div>
           </div>
         </div>
         <div className="down container">
-          <div class="emoji">👇</div>
+          <div className="emoji">👇</div>
           <h3>Down here!</h3>
-          <div class="emoji">👇</div>
+          <div className="emoji">👇</div>
         </div>
       </div>
     </header>
