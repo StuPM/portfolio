@@ -9,6 +9,7 @@ const Contact = () => {
         <h3>Get in contact!</h3>
         <div>Stuart Paul McGee</div>
         <div>Ware, Hertfordshire, UK</div>
+        <a href="tel:+447835705741">07835 705741</a>
         <div>
           <a href="mailto:stuartpmcgee@gmail.com">stuartpmcgee@gmail.com</a>
         </div>

@@ -4,7 +4,8 @@
   @include websiteTile;
 
   display: flex;
-  min-height: 45vh;
+  height: 45vh;
+  flex: 1;
 
   &:nth-child(even) {
     direction: rtl;
@@ -50,6 +51,7 @@
   .tech.container {
     width: 100%;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     div {
       background-color: #f0f1fc;
@@ -61,6 +63,10 @@
   }
   .description {
     flex-grow: 2;
+
+    div:nth-child(1) {
+      padding-bottom: 1rem;
+    }
   }
   .link {
     align-self: center;

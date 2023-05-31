@@ -8,8 +8,8 @@ export const portfolioSlice = createSlice({
       {
         title: "Film Tracking App",
         description: [
-          "Fullstack React app letting me track and review the films that I have watched.",
-          "Database backend created by me, connecting to a MongoDB where data pulled a movie API is stored.",
+          "Fullstack React app letting users view and read reviews of the films that I have recently watched.",
+          "With a custom database backend, connecting to a Mongo NoSQL database where film and review data is stored.",
         ],
         tech: ["FullStack", "React", "Redux", "MongoDB", "API"],
         img: "website.png",
@@ -20,8 +20,8 @@ export const portfolioSlice = createSlice({
       {
         title: "Hospitality Recruitment Website",
         description: [
-          "Fullstack React app created as part of my fullstack developer bootcamp.",
-          "My highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to show the correct data.",
+          "Fullstack React app created as part of fullstack developer bootcamp.",
+          "Personal highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to show the correct data.",
         ],
         tech: ["React", "Redux", "FullStack", "API", "MySQL"],
         img: "HOSPITALITYGIF.gif",
@@ -44,7 +44,7 @@ export const portfolioSlice = createSlice({
       {
         title: "Lunchtime Weather Forecast",
         description: [
-          "A weather forecast website that returns the weather at 12pm or the next 5 lunchtimes.",
+          "A weather forecast website that returns the weather at 12pm for the next 5 days.",
           "Either by using geolocation or an inputted location to know where to get the weather for. Using JavaScript to create HTML conditionally and SCSS for styling.",
         ],
         tech: ["JavaScript", "SCSS", "API", "HTML"],
@@ -64,15 +64,15 @@ export const portfolioSlice = createSlice({
         live: "https://jump-a24-homage.netlify.app/",
         fullSize: true,
       },
-      {
-        title: "Octopus Energy",
-        description: ["TBC"],
-        tech: ["Redux", "CSS", "graphs"],
-        img: "website.png",
-        github: "TBC",
-        live: "TBC",
-        fullSize: true,
-      },
+      // {
+      //   title: "Octopus Energy",
+      //   description: ["TBC"],
+      //   tech: ["Redux", "CSS", "graphs"],
+      //   img: "website.png",
+      //   github: "TBC",
+      //   live: "TBC",
+      //   fullSize: true,
+      // },
     ],
   },
 

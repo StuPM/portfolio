@@ -2,7 +2,7 @@ import React, { useLayoutEffect } from "react";
 import "../styles/Head.scss";
 import Nav from "./Nav";
 import hello from "../assets/hello.png";
-import me from "../assets/meCutOut.png";
+import headshot from "../assets/test.png";
 
 import { gsap } from "gsap";
 
@@ -13,6 +13,10 @@ const Head = () => {
     tl.to(".emoji", {
       duration: 0.5,
       y: -5,
+    });
+
+    tl.from(".emoji.right", {
+      transform: "rotateY(180deg)",
     });
   }, []);
 
@@ -34,23 +38,17 @@ const Head = () => {
                 down to see my projects!
               </p>
 
-              <div className="links">
-                <a href="https://www.linkedin.com/in/stuartpmcgee/">linkedin</a>
-                <div>&ensp; | &ensp;</div>
-                <a href="https://github.com/StuPM">github</a>
-              </div>
-
               <p>Actively seaking a developer role.</p>
             </div>
             <div className="headshot container">
-              <img src={me} alt="" />
+              <img src={headshot} alt="Headshot of Stuart McGee" />
             </div>
           </div>
         </div>
         <div className="down container">
           <div className="emoji">👇</div>
-          <h3>Down here!</h3>
-          <div className="emoji">👇</div>
+          <h3>&nbsp;Down here!&nbsp;</h3>
+          <div className="emoji right">👇</div>
         </div>
       </div>
     </header>

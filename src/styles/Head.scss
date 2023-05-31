@@ -94,6 +94,14 @@ header {
 .down {
   justify-content: center;
   align-items: center;
+  .emoji {
+    font-size: 1.5rem;
+
+    &.right {
+      transform: rotateY(180deg);
+      // transform: rotateY("90");
+    }
+  }
 }
 
 a {
