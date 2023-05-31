@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import "../styles/Head.scss";
 import Nav from "./Nav";
-import hello from "../assets/hello.png";
+// import hello from "../assets/hello.png";
 import headshot from "../assets/test.png";
 
 import { gsap } from "gsap";
