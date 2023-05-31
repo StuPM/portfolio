@@ -29,7 +29,8 @@ const Head = () => {
             <div className="headerText">
               <div className="title">
                 <h1>Hello! &nbsp;</h1>
-                <img src={hello} alt="Waving hand." />
+                {/* <img src={hello} alt="Waving hand." /> */}
+                <div>👋</div>
               </div>
 
               <div>React | JavaScript | CSS 3 | HTML5 </div>
