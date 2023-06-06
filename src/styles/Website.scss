@@ -1,4 +1,4 @@
-@import "../styles/Head.scss";
+@import "../styles/App.scss";
 
 .website {
   @include websiteTile;
@@ -18,24 +18,23 @@
     color: #3c4689;
   }
 
-  .image,
-  .details {
-    flex-basis: 50%;
+  > div {
     padding: 10px 10px;
   }
+}
 
-  .image {
-    align-self: center;
-    img {
-      max-width: 100%;
-      max-height: 100%;
-    }
+.image {
+  flex-basis: 50%;
+  align-self: center;
+  img {
+    max-width: 100%;
+    object-fit: contain;
   }
 }
 
 .details {
+  flex-basis: 50%;
   flex-direction: column;
-  justify-content: normal;
 
   row-gap: 1rem;
 
@@ -49,7 +48,6 @@
   }
 
   .tech.container {
-    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
 
@@ -57,10 +55,10 @@
       background-color: #f0f1fc;
       font-weight: bold;
       border-radius: 5px;
-
       padding: 0.25rem 0.5rem;
     }
   }
+
   .description {
     flex-grow: 2;
 
@@ -68,6 +66,7 @@
       padding-bottom: 1rem;
     }
   }
+
   .link {
     align-self: center;
     button {
@@ -84,7 +83,7 @@
       line-height: 1;
       transition: transform 200ms, background 200ms;
       &:hover {
-        transform: translateY(-2px);
+        transform: scale(1.2);
       }
     }
   }

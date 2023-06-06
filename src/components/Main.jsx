@@ -15,10 +15,7 @@ const Main = () => {
       </svg>
       <main>
         {websiteDate.map((website) => (
-          <div
-            className={website.fullSize ? "website fullSize" : "website"}
-            key={website.title}
-          >
+          <div className="website" key={website.title}>
             <Website website={website} />
           </div>
         ))}

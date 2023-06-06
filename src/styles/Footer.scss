@@ -1,13 +1,37 @@
-@import "../styles/Head.scss";
+@import "../styles/App.scss";
 
 footer {
-  @include backgroundColourSet;
+  .footerBar {
+    @include backgroundColourSet;
 
-  display: flex;
-  justify-content: space-between;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
 
-  padding: 5px 10px;
+  flex-direction: column;
+}
 
-  font-weight: 300;
-  font-size: 0.7rem;
+.contact {
+  margin: auto;
+  @include websiteTile;
+  padding: 1rem;
+
+  flex-direction: column;
+  align-items: center;
+
+  font-style: normal;
+
+  * {
+    color: #3c4689;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  > div,
+  > a {
+    padding-bottom: 5px;
+  }
 }
