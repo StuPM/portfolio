@@ -6,7 +6,6 @@ header {
 
   .headerMain {
     @include websiteWidth;
-    width: 80%;
     height: 100%;
     flex-direction: column;
 
@@ -22,9 +21,14 @@ header {
       font-size: 1.2rem;
     }
 
+    .textAndHead {
+      align-items: center;
+    }
+
     .headerText,
     .headshot {
-      flex-basis: 50%;
+      // flex-basis: 50%;
+      width: 50%;
     }
 
     .title {
@@ -60,6 +64,7 @@ header {
       height: 50vh;
       img {
         object-fit: contain;
+        width: 100%;
       }
     }
   }

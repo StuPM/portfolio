@@ -19,7 +19,7 @@ const Head = () => {
     <header>
       <div className="container headerMain">
         <Nav />
-        <div className="container">
+        <div className="textAndHead container">
           <div className="headerText">
             <div className="title">
               <h1>Hello! &nbsp;</h1>
