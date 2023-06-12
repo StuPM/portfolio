@@ -4,7 +4,7 @@ footer {
   .footerBar {
     @include backgroundColourSet;
 
-    padding: 5px 10px;
+    padding: 0.5rem 0.7rem;
     font-weight: 300;
     font-size: 0.7rem;
   }
@@ -32,6 +32,6 @@ footer {
 
   > div,
   > a {
-    padding-bottom: 5px;
+    padding-bottom: 0.5rem;
   }
 }

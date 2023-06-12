@@ -1,3 +1,9 @@
+@media (max-width: 1100px) {
+  main {
+    width: 70%;
+  }
+}
+
 @media (max-width: 910px) {
   header {
     .headerMain {
@@ -21,7 +27,7 @@
     .headerMain {
       width: 95%;
       nav {
-        padding: 30px 0;
+        padding: 2rem 0;
       }
       .headshot {
         height: 30vh;
@@ -34,7 +40,7 @@
   header {
     .headerMain {
       width: auto;
-      padding: 10px;
+      padding: 1em;
       nav {
         padding: 0;
       }

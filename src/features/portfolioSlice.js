@@ -8,20 +8,20 @@ export const portfolioSlice = createSlice({
       {
         title: "Film Tracking App",
         description: [
-          "Fullstack React app letting users view and read reviews of the films that I have recently watched.",
-          "With a custom database backend, connecting to a Mongo NoSQL database where film and review data is stored.",
+          "A fullstack personal film tracker app, allowing users to interactive with and read reviews and ratings entered by myself.",
+          "Using 7 years worth of film tracking data stored in a MongoDB NoSQL database, that is continuously updated via a custom API backend. With film data pulled from an online API.",
         ],
         tech: ["FullStack", "React", "Redux", "MongoDB", "API"],
-        img: "website.png",
+        img: "FILMGIF.gif",
         github: "https://github.com/StuPM/personal-film-tracker",
-        live: "TBC",
+        live: "https://trackmyfilms.co.uk/",
         fullSize: true,
       },
       {
         title: "Hospitality Recruitment Website",
         description: [
           "Fullstack React app created as part of fullstack developer bootcamp.",
-          "Personal highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to show the correct data.",
+          "Personal highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to retrieve the correct data.",
         ],
         tech: ["React", "Redux", "FullStack", "API", "MySQL"],
         img: "HOSPITALITYGIF.gif",
