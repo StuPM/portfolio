@@ -11,7 +11,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/stuartpmcgee/"
           className="linkedIn"
         >
-          <div>Designed by me, Stuart Paul McGee.</div>
+          Designed by me, Stuart Paul McGee.
         </a>
         <div>&copy; 2023</div>
       </div>

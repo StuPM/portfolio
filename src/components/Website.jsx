@@ -8,7 +8,7 @@ const Website = ({ website }) => {
       <div className="image">
         <img
           src={require(`../assets/websitesFullSize/` + website.img)}
-          alt="Screenshot of the portfolio websites."
+          alt={"Screenshot of my " + website.title}
         />
       </div>
       <div className="details container">

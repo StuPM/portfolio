@@ -40,7 +40,7 @@ const Head = () => {
         </div>
         <div className="down">
           <div className="emoji">👇</div>
-          <h3>&nbsp;Down here!&nbsp;</h3>
+          <h2>&nbsp;Down here!&nbsp;</h2>
           <div className="emoji right">👇</div>
         </div>
       </div>
