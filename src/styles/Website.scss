@@ -71,7 +71,7 @@
   .link {
     align-self: center;
     button {
-      background-color: #6474e5;
+      background-color: #2134c4;
       display: inline-block;
       outline: 0;
       border: 0;
@@ -83,6 +83,8 @@
       font-weight: 700;
       line-height: 1;
       transition: transform 200ms, background 200ms;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
       &:hover {
         transform: scale(1.2);
       }

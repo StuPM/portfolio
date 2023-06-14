@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-        <polygon points="0 0, 50 0, 0 50, 0 0" fill="#6474e5" />
+        <polygon points="0 0, 50 0, 0 50, 0 0" fill="#2134c4" />
       </svg>
       <main>
         {websiteDate.map((website) => (
