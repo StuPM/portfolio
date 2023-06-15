@@ -27,7 +27,6 @@ header {
 
     .headerText,
     .headshot {
-      // flex-basis: 50%;
       width: 50%;
     }
 
@@ -52,11 +51,6 @@ header {
       p {
         font-weight: 600;
       }
-    }
-
-    .links {
-      display: flex;
-      flex-direction: row;
     }
 
     .headshot {

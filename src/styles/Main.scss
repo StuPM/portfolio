@@ -2,13 +2,14 @@
 
 main {
   @include websiteWidth;
+  width: 55%;
   padding-top: 5%;
   display: flex;
   flex-direction: column;
 }
 
 body {
-  background-color: #d1d5f7;
+  background-color: $bodyColour;
 }
 
 #root > svg {

@@ -1,16 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import "../styles/MediaQueries.scss";
 
-$buttonColour: #4ea1d3;
+$headerColour: #4e5bb6;
+$headerTextColour: #e9e9f3;
+
+$bodyColour: #50b7d9;
+
+$websiteTextColour: #2e3773;
+$techColour: #f0f1fc;
+
+$buttonColour: #4e5bb6;
+$buttonTextColour: #ffffff;
 
 @mixin backgroundColourSet {
-  background-color: #2134c4;
-  color: #e9e9f3;
+  background-color: $headerColour;
+  color: $headerTextColour;
 }
 
 @mixin websiteWidth {
   margin: auto;
-  width: 60%;
+  width: 75%;
 }
 
 @mixin websiteTile {

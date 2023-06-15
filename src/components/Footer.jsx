@@ -10,6 +10,9 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/stuartpmcgee/"
           className="linkedIn"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Link to LinkedIn profile, opens in a new window."
         >
           Designed by me, Stuart Paul McGee.
         </a>

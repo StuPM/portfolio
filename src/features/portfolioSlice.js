@@ -25,8 +25,8 @@ export const portfolioSlice = createSlice({
         ],
         tech: ["React", "Redux", "FullStack", "API", "MySQL"],
         img: "HOSPITALITYGIF.gif",
-        github: "https://github.com/russell-gh/hospitality-hunt",
-        live: "https://hospitalityhunt.uk/",
+        github: "https://github.com/StuPM/hospitalityhunt",
+        live: "https://hospitalityhunt-production.up.railway.app/",
         fullSize: true,
       },
       {
