@@ -59,7 +59,7 @@ export const portfolioSlice = createSlice({
           "A homage to the A24 film studio website, built using only CSS and HTML to showcase my ability to follow a design and build a website to a professional standard.",
         ],
         tech: ["SCSS", "HTML", "CSS"],
-        img: "A24.png",
+        img: "A24GIF.gif",
         github: "https://github.com/StuPM/A24-Homage",
         live: "https://jump-a24-homage.netlify.app/",
         fullSize: true,

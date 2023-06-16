@@ -54,11 +54,11 @@ header {
     }
 
     .headshot {
-      justify-content: center;
+      justify-content: flex-end;
       height: 50vh;
       img {
         object-fit: contain;
-        width: 100%;
+        max-width: 100%;
       }
     }
   }

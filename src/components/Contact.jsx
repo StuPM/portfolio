@@ -2,7 +2,6 @@ import React from "react";
 
 const Contact = () => {
   return (
-    // <div className="container" id="contact">
     <address className="contact container" id="contact">
       <h2>Interested in what you see?</h2>
       <h3>Get in contact!</h3>
@@ -16,7 +15,6 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/stuartpmcgee/">linkedin</a>
       </div>
     </address>
-    // </div>
   );
 };
 
