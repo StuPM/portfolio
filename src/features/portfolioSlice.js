@@ -30,6 +30,19 @@ export const portfolioSlice = createSlice({
         fullSize: true,
       },
       {
+        title: "My Energy Usage",
+        description: [
+          "An experiment in Javascript graph technology.",
+          "Utilising ChartJS to visualise my energy usage data from the Octopus Energy API and using Tailwind CSS for modern reusable component CSS.",
+        ],
+        tech: ["TailwindCSS", "Redux", "React", "API", "JavaScript"],
+        img: "ENERGY.gif",
+        github: "https://github.com/StuPM/myenergyusage",
+        live: "https://my-energy-usage.netlify.app/",
+        fullSize: true,
+      },
+
+      {
         title: "Simpsons Quotes Generator",
         description: [
           "My first foray into React development.",

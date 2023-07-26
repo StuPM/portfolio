@@ -75,6 +75,7 @@
   .tech.container {
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 0.5rem;
 
     div {
       background-color: $techColour;
