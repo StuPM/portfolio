@@ -14,21 +14,21 @@ export const portfolioSlice = createSlice({
         tech: ["FullStack", "React", "Redux", "MongoDB", "API"],
         img: "FILMGIF.gif",
         github: "https://github.com/StuPM/personal-film-tracker",
-        live: "https://trackmyfilms.co.uk/",
+        live: "https://spm-film-tracker.netlify.app/",
         fullSize: true,
       },
-      {
-        title: "Hospitality Recruitment Website",
-        description: [
-          "Fullstack React app created as part of fullstack developer bootcamp.",
-          "Personal highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to retrieve the correct data.",
-        ],
-        tech: ["React", "Redux", "FullStack", "API", "MySQL"],
-        img: "HOSPITALITYGIF.gif",
-        github: "https://github.com/StuPM/hospitalityhunt",
-        live: "https://hospitalityhunt-production.up.railway.app/",
-        fullSize: true,
-      },
+      // {
+      //   title: "Hospitality Recruitment Website",
+      //   description: [
+      //     "Fullstack React app created as part of fullstack developer bootcamp.",
+      //     "Personal highlights include the signup and navigation components, as well as connecting the front and backend and developing the SQL queries to retrieve the correct data.",
+      //   ],
+      //   tech: ["React", "Redux", "FullStack", "API", "MySQL"],
+      //   img: "HOSPITALITYGIF.gif",
+      //   github: "https://github.com/StuPM/hospitalityhunt",
+      //   live: "https://hospitalityhunt-production.up.railway.app/",
+      //   fullSize: true,
+      // },
       {
         title: "My Energy Usage",
         description: [
